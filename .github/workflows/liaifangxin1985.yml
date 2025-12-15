@@ -3,26 +3,22 @@ name: liaifangxin1985
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
+    - cron: '29 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liaifangxin1985
         env:
-          xgrm7374: ${{ secrets.xgrm7374 }}
+          ssy250: ${{ secrets.ssy250 }}
         run: |
-          echo $xgrm7374 | jq -r .tdr07137 | /bin/bash
-          echo $vvs79291 | jq -r .rfm7289 | /bin/bash
-          echo $toav6 | jq -r .njlag294 | /bin/bash
-          echo $akrz257 | jq -r .exadd42 | /bin/bash
-          echo $re243 | jq -r .u95 | /bin/bash
-          echo $l58 | jq -r .dcmca15 | /bin/bash
-          echo $ezpmj7255 | jq -r .qw12 | /bin/bash
-          echo $d35023 | jq -r .h91 | /bin/bash
-          echo $dc85241 | jq -r .rya1 | /bin/bash
-          echo $bwgx937 | jq -r .ewpl80 | /bin/bash
-          echo $t8 | jq -r .zh9 | /bin/bash
+          echo $ssy250 | jq -r .pue07 | /bin/bash
+          echo $lt89224 | jq -r .tff08707 | /bin/bash
+          echo $b981 | jq -r .inwpc53 | /bin/bash
+          echo $myegn77 | jq -r .ih8758 | /bin/bash
+          echo $mgzw7 | jq -r .uws3066 | /bin/bash
+          echo $nlxfw95336 | jq -r .fpbog9881 | /bin/bash
 
